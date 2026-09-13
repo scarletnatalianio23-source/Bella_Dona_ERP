@@ -1,5 +1,5 @@
-# Project Presentation
+# 📊 Executive Presentation
 
-## English Presentation
+You can view or download the presentation directly below:
 
-[View the English Presentation](./BELLA_DONA_ERP_Presentation.pdf)
+* 📄 [Download PDF Presentation](./BELLA_DONA_ERP_Presentation.pdf)
