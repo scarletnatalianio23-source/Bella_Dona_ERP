@@ -1,0 +1,126 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Plus+Jakarta+Sans:wght@300;400;600&display=swap');
+
+
+:root {
+  --bg-dark: #09070d;         
+  --card-bg: #130f1a;       
+  --accent-purple: #8b5cf6;   
+  --accent-pink: #ec4899;     
+  --pink-glow: #f472b6;       
+  --text-light: #f3e8ff;    
+  --border-color: #2a1b3d;    
+}
+
+
+body {
+  background-color: var(--bg-dark) !important;
+  color: var(--text-light) !important;
+  font-family: 'Plus Jakarta Sans', sans-serif !important;
+}
+
+
+.page-header {
+  background: linear-gradient(135deg, #1d0c2e 0%, #09070d 100%) !important;
+  border-bottom: 2px solid var(--accent-pink);
+  padding: 3rem 2rem !important;
+}
+
+.project-name {
+  font-family: 'Cinzel', serif !important;
+  color: var(--accent-pink) !important;
+  letter-spacing: 2px;
+  text-shadow: 0 0 12px rgba(236, 72, 153, 0.5);
+}
+
+.project-tagline {
+  color: #c4b5fd !important;
+  font-weight: 300;
+}
+
+
+.main-content {
+  max-width: 900px !important;
+  background-color: var(--card-bg);
+  padding: 2.5rem !important;
+  border-radius: 12px;
+  border: 1px solid var(--border-color);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.8), 0 0 15px rgba(139, 92, 246, 0.15);
+  margin-top: -2rem !important;
+}
+
+
+h1, h2, h3 {
+  font-family: 'Cinzel', serif !important;
+  color: var(--pink-glow) !important;
+  border-bottom: 1px solid var(--border-color) !important;
+  padding-bottom: 0.5rem;
+  text-shadow: 0 0 8px rgba(244, 114, 182, 0.2);
+}
+
+
+a {
+  color: var(--pink-glow) !important;
+  text-decoration: none !important;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  color: var(--accent-purple) !important;
+  text-shadow: 0 0 10px rgba(236, 72, 153, 0.6);
+}
+
+
+ul {
+  list-style: none !important;
+  padding-left: 0 !important;
+}
+
+li {
+  background: #1a1325;
+  margin: 10px 0;
+  padding: 14px 20px;
+  border-radius: 8px;
+  border-left: 4px solid var(--accent-pink);
+  transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+li:hover {
+  transform: translateX(6px);
+  border-left-color: var(--accent-purple);
+  box-shadow: 0 0 12px rgba(236, 72, 153, 0.2);
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+  background-color: #0f0a17;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid var(--border-color);
+}
+
+th {
+  background-color: #231435 !important;
+  color: var(--accent-pink) !important;
+  font-family: 'Cinzel', serif;
+  text-align: left;
+  padding: 12px;
+}
+
+td {
+  padding: 12px;
+  border-bottom: 1px solid var(--border-color);
+}
+
+tr:nth-child(even) {
+  background-color: #170f24;
+}
