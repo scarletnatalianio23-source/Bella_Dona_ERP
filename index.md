@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="./style.css">
+
 # BELLA DONA ERP — Documentation Portal
 
 Welcome to the official documentation site for the **BELLA DONA ERP** project.
